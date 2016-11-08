@@ -36,7 +36,7 @@ Repo usado para a cadeira de Estratégias Empresariais para o uso de TI
 ## Comandos mais usados do Git
 Clonando o repositorio
 
-* git clone https://USUARIO:SENHA@github.com/afcosta-ibm/analise-risco.git
+* git clone https://USUARIO:SENHA@github.com/afcosta-ibm/estrategias-empresariais.git
 
 Iniciando os trabalhos:
 
