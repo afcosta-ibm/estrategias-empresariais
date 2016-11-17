@@ -6,6 +6,8 @@ Repo usado para a cadeira de Estratégias Empresariais para o uso de TI
 * [R](https://www.r-project.org/)
 * [R Studio](https://www.rstudio.com/)
 * [R programming coursera](https://pt.coursera.org/learn/r-programming)
+* [Curso de R DataCamp](https://www.datacamp.com/courses/free-introduction-to-r)
+* [15 Questoes comuns sobre plots em R](https://www.datacamp.com/community/tutorials/15-questions-about-r-plots#gs.jQsNf5U)
 * [Tutorial de R](http://www.tutorialspoint.com/r/)
 * [GitHub](https://github.com/)
 * [Git SCM](https://git-scm.com/)
