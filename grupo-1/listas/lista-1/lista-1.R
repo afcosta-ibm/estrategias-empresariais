@@ -90,7 +90,12 @@ lista1 <- function(){
   
   legenda <- "Produto A - Verde, Produto B - Azul, Produto C - Amarelo"
 
-  plot(produtoA, type="l", xlim=c(0, 10000), ylim=c(0, 1), xlab=legenda, ylab="Probabilidades")
+  plot(
+    main = "Cumulativas dos Produtos A, B e C",
+    produtoA, type="l", 
+    xlim=c(0, 10000), ylim=c(0, 1), 
+    xlab=legenda, ylab="Probabilidades"
+  )
   
   lines(cumulativaProdutoA, col = "green")
   lines(cumulativaProdutoB, col = "blue")
