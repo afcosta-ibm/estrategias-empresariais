@@ -41,5 +41,13 @@ All equilibria by enumeration of mixed strategies in strategic game
 0,0,1,0,0,1,0
 </profile>
 </analysis>
+<analysis type="list">
+<description>
+All equilibria by enumeration of mixed strategies in strategic game
+</description>
+<profile type="mixed">
+0,0,1,0,0,1,0
+</profile>
+</analysis>
 </game>
 </gambit:document>
