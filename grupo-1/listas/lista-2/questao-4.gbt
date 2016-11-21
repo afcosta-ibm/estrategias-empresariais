@@ -5,27 +5,45 @@
 <player id="0" red="154" green="205" blue="50" />
 <player id="1" red="255" green="0" blue="0" />
 <player id="2" red="0" green="0" blue="255" />
+<player id="3" red="0" green="128" blue="0" />
 </colors>
 <font size="10" family="74" face="Arial" style="90" weight="92" />
 <numbers decimals="4"/>
 <game>
 <nfgfile>
-NFG 1 R "Untitled Strategic Game" { "Player 1" "Player 2" }
+NFG 1 R "Untitled Strategic Game" { "E1" "E2" "E3" }
 
-{ { "E1" "E2" "E3" }
+{ { "A" "B" }
+{ "A" "B" }
 { "A" "B" }
 }
 ""
 
 {
-{ "" 1, 1 }
-{ "" 0, 1 }
-{ "" 0, 1 }
-{ "" 1, 1 }
-{ "" 0, 1 }
-{ "" 1, 1 }
+{ "" 1, 0, 0 }
+{ "" 1, 0, 0 }
+{ "" 1, 0, 0 }
+{ "" 0, 1, 0 }
+{ "" 1, 0, 0 }
+{ "" 0, 1, 0 }
+{ "" 0, 1, 0 }
+{ "" 0, 1, 0 }
 }
-1 2 5 3 4 6 
+1 2 3 4 5 6 7 8 
 </nfgfile>
+<analysis type="list">
+<description>
+Some equilibria by function minimization in strategic game
+</description>
+<profile type="mixed">
+0.995984,0.00401594,-2.2115e-006,1,0.399687,0.600313
+</profile>
+<profile type="mixed">
+1.00001,-1.49759e-005,0.0195062,0.980494,0.866671,0.133329
+</profile>
+<profile type="mixed">
+1.00011,-0.000110839,1.4002e-006,0.999999,0.70349,0.29651
+</profile>
+</analysis>
 </game>
 </gambit:document>
