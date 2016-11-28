@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gambit:document xmlns:gambit="http://gambit.sourceforge.net/" version="0.1">
+<colors>
+<player id="-1" red="0" green="0" blue="0" />
+<player id="0" red="154" green="205" blue="50" />
+<player id="1" red="255" green="0" blue="0" />
+<player id="2" red="0" green="0" blue="255" />
+<player id="3" red="0" green="128" blue="0" />
+</colors>
+<font size="10" family="74" face="Arial" style="90" weight="92" />
+<autolayout>
+<nodes size="10" spacing="50" chance="dot" player="dot" terminal="dot"/>
+<branches size="60" tine="20" branch="forktine" labels="horizontal"/>
+<infosets connect="all" style="circles"/>
+</autolayout>
+<labels abovenode="label" belownode="isetid" abovebranch="label" belowbranch="probs" />
+<numbers decimals="4"/>
+<game>
+<efgfile>
+EFG 2 R "Untitled Extensive Game" { "Player 1" "Player 2" "Player 3" }
+""
+
+p "" 1 1 "" { "1" "2" } 15 "" { 6, 8, 9 }
+p "" 2 1 "" { "1" "2" "3" } 13 "" { 3, 8, 1 }
+t "" 1 "" { 2, 4, 6 }
+t "" 2 "" { 3, 8, 1 }
+t "" 3 "" { 4, 4, 4 }
+p "" 2 2 "" { "1" "2" } 12 "" { 6, 8, 9 }
+p "" 3 1 "" { "1" "2" } 11 "" { 6, 8, 9 }
+t "" 4 "" { 10, 1, 7 }
+t "" 5 "" { 6, 8, 9 }
+t "" 7 "" { 3, 1, 2 }
+</efgfile>
+<analysis type="list">
+<description>
+One equilibrium by logit tracing in extensive game
+</description>
+<profile type="behav">
+0,1,0,1,0,1,0,0,1
+</profile>
+</analysis>
+<analysis type="list">
+<description>
+Some equilibria by function minimization in extensive game
+</description>
+</analysis>
+<analysis type="list">
+<description>
+Some equilibria in pure strategies in extensive game
+</description>
+<profile type="behav">
+0,1,1,0,0,1,0,0,1
+</profile>
+<profile type="behav">
+0,1,0,1,0,1,0,0,1
+</profile>
+<profile type="behav">
+0,1,0,0,1,1,0,0,1
+</profile>
+</analysis>
+</game>
+</gambit:document>
