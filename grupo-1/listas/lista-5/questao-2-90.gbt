@@ -19,7 +19,7 @@
 EFG 2 R "Untitled Extensive Game" { "Marido" "Esposa" }
 ""
 
-c "" 1 "" { "Loving" 1/10 "Leaving" 9/10 } 0
+c "" 1 "" { "Loving" 9/10 "Leaving" 1/10 } 0
 p "" 1 1 "" { "Futebol" "Opera" } 0
 p "" 2 1 "" { "Futebol" "Opera" } 0
 t "" 1 "" { 3, 1 }
