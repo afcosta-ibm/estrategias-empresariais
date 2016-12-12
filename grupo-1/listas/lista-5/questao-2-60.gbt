@@ -40,5 +40,28 @@ t "" 8 "" { 1, 0 }
 Some equilibria in pure strategies in extensive game
 </description>
 </analysis>
+<analysis type="list">
+<description>
+All equilibria by enumeration of mixed strategies in strategic game
+</description>
+<profile type="behav">
+1,0,1,0,1,0
+</profile>
+<profile type="behav">
+11/12,1/12,1,0,1/4,3/4
+</profile>
+<profile type="behav">
+11/20,9/20,9/20,11/20,1/4,3/4
+</profile>
+<profile type="behav">
+1/4,3/4,0,1,1/4,3/4
+</profile>
+<profile type="behav">
+0,1,0,1,0,1
+</profile>
+<profile type="behav">
+3/4,1/4,3/4,1/4,1/4,3/4
+</profile>
+</analysis>
 </game>
 </gambit:document>

@@ -35,5 +35,22 @@ p "" 2 1 "" { "Futebol" "Opera" } 0
 t "" 7 "" { 0, 3 }
 t "" 8 "" { 1, 0 }
 </efgfile>
+<analysis type="list">
+<description>
+All equilibria by enumeration of mixed strategies in strategic game
+</description>
+<profile type="behav">
+1,0,13/16,3/16,1/4,3/4
+</profile>
+<profile type="behav">
+7/20,13/20,13/20,7/20,1/4,3/4
+</profile>
+<profile type="behav">
+3/4,1/4,3/4,1/4,1/4,3/4
+</profile>
+<profile type="behav">
+0,1,9/16,7/16,1/4,3/4
+</profile>
+</analysis>
 </game>
 </gambit:document>

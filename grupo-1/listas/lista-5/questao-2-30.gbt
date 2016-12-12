@@ -53,5 +53,22 @@ Some equilibria by solving a linear complementarity program in extensive game
 0,1,3/7,4/7,1/4,3/4
 </profile>
 </analysis>
+<analysis type="list">
+<description>
+All equilibria by enumeration of mixed strategies in strategic game
+</description>
+<profile type="behav">
+1,0,6/7,1/7,1/4,3/4
+</profile>
+<profile type="behav">
+2/5,3/5,3/5,2/5,1/4,3/4
+</profile>
+<profile type="behav">
+3/4,1/4,3/4,1/4,1/4,3/4
+</profile>
+<profile type="behav">
+0,1,3/7,4/7,1/4,3/4
+</profile>
+</analysis>
 </game>
 </gambit:document>
