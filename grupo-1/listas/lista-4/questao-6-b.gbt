@@ -26,14 +26,85 @@ p "" 1 1 "" { "igual" "desigual" "prancha" } 0
 p "" 2 1 "" { "aceita" "não aceita" } 0
 p "" 5 1 "" { "aceita" "não aceita" } 0
 t "" 9 "" { 34, 33, 0, 0, 33 }
-t "" 0
-t "" 0
+t "" 11 "" { -1, -1, 0, 0, 0 }
+t "" 12 "" { -1, -1, 0, 0, 0 }
 p "" 2 2 "" { "aceita" "não aceita" } 0
 p "" 5 2 "" { "aceita" "não aceita" } 0
 t "" 10 "" { 98, 1, 0, 0, 1 }
-t "" 0
-t "" 0
-t "" 0
+t "" 13 "" { -1, -1, 0, 0, 0 }
+t "" 14 "" { -1, -1, 0, 0, 0 }
+t "" 15 "" { -1, -1, -1, 100, 0 }
 </efgfile>
+<analysis type="list">
+<description>
+Some equilibria in pure strategies in extensive game
+</description>
+<profile type="behav">
+0,1,0,1,0,1,0,1,0,1,0
+</profile>
+<profile type="behav">
+1,0,0,1,0,0,1,1,0,1,0
+</profile>
+<profile type="behav">
+0,1,0,0,1,1,0,1,0,1,0
+</profile>
+<profile type="behav">
+0,0,1,0,1,0,1,1,0,1,0
+</profile>
+<profile type="behav">
+1,0,0,1,0,1,0,1,0,0,1
+</profile>
+<profile type="behav">
+1,0,0,1,0,0,1,1,0,0,1
+</profile>
+<profile type="behav">
+0,0,1,0,1,1,0,1,0,0,1
+</profile>
+<profile type="behav">
+0,1,0,0,1,0,1,1,0,0,1
+</profile>
+<profile type="behav">
+0,0,1,0,1,0,1,1,0,0,1
+</profile>
+<profile type="behav">
+0,1,0,1,0,1,0,0,1,1,0
+</profile>
+<profile type="behav">
+0,0,1,1,0,0,1,0,1,1,0
+</profile>
+<profile type="behav">
+0,1,0,0,1,1,0,0,1,1,0
+</profile>
+<profile type="behav">
+1,0,0,0,1,0,1,0,1,1,0
+</profile>
+<profile type="behav">
+0,0,1,0,1,0,1,0,1,1,0
+</profile>
+<profile type="behav">
+0,0,1,1,0,1,0,0,1,0,1
+</profile>
+<profile type="behav">
+0,1,0,1,0,0,1,0,1,0,1
+</profile>
+<profile type="behav">
+0,0,1,1,0,0,1,0,1,0,1
+</profile>
+<profile type="behav">
+1,0,0,0,1,1,0,0,1,0,1
+</profile>
+<profile type="behav">
+0,0,1,0,1,1,0,0,1,0,1
+</profile>
+<profile type="behav">
+1,0,0,0,1,0,1,0,1,0,1
+</profile>
+<profile type="behav">
+0,1,0,0,1,0,1,0,1,0,1
+</profile>
+<profile type="behav">
+0,0,1,0,1,0,1,0,1,0,1
+</profile>
+</analysis>
 </game>
 </gambit:document>
