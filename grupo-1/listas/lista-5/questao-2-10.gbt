@@ -37,16 +37,6 @@ t "" 8 "" { 1, 0 }
 </efgfile>
 <analysis type="list">
 <description>
-Some equilibria in pure strategies in extensive game
-</description>
-</analysis>
-<analysis type="list">
-<description>
-Some equilibria in pure strategies in extensive game
-</description>
-</analysis>
-<analysis type="list">
-<description>
 All equilibria by enumeration of mixed strategies in strategic game
 </description>
 <profile type="behav">
