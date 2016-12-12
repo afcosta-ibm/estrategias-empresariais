@@ -1,2 +1,1 @@
-Questão 3
-
+Apenas há equilibrio subgame perfect no jogo = Não joga, pois este é o único jogo com equilibro (o outro é Joga + Não Confia) em que, idenpendente da opcao do jogador 1, ambos possuem equilibrio

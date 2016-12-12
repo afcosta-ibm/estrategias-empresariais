@@ -1,0 +1,1 @@
+Apenas há equilibrio subgame perfect no jogos (Saca,Saca), (Não Saca, Não Saca, Não Saca, Não Saca) e (Não Saca, Não Saca, Saca, Saca) pois estes assumem a estrategia do jogador 2 tomar sempre a mesma ação do jogador 1
